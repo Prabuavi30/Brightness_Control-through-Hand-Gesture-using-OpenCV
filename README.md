@@ -18,8 +18,8 @@ It uses **MediaPipe** for hand tracking, **OpenCV** for camera feed, **Tkinter**
 ## 📦 Requirements
 
 Make sure you have the following installed:
-
-**How It Works**
+  **pip install opencv-python mediapipe screen-brightness-controll pillow**
+## How It Works
 The application captures webcam frames.
 
 MediaPipe identifies hand landmarks.
@@ -28,8 +28,7 @@ It calculates the Euclidean distance between the thumb and index finger.
 
 Based on this distance, the screen brightness is increased or decreased proportionally.
 
-**How to Run**
-
+## How to Run
 python main_inti.py
 Once running:
 
